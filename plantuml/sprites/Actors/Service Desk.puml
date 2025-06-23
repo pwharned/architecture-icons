@@ -1,5 +1,5 @@
 @startuml
-sprite $Actors_Service_Desk [
+sprite $Actors_Service_Desk[64x64/16] {
                           FFFFFFFFFFFF                          
                       FFFFFFFFFFFFFFFFFFFF                      
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
@@ -64,6 +64,6 @@ FFFFFFFFFFFFFFFFFFFF0000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
                       FFFFFFFFFFFFFFFFFFFF                      
                           FFFFFFFFFFFF                          
-]
+}
 
 @enduml

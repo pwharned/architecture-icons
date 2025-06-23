@@ -1,5 +1,5 @@
 @startuml
-sprite $Actors_devices [
+sprite $Actors_devices[64x64/16] {
                           FFFFFFFFFFFF                          
                       FFFFFFFFFFFFFFFFFFFF                      
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
@@ -64,6 +64,6 @@ FFFFFFFFFFFFFFFFFF00FFFFFF00FF000000000000000FFFFFFFFFFFFFFFFFFF
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
                       FFFFFFFFFFFFFFFFFFFF                      
                           FFFFFFFFFFFF                          
-]
+}
 
 @enduml

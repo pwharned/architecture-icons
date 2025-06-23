@@ -1,5 +1,5 @@
 @startuml
-sprite $Actors_flag [
+sprite $Actors_flag[64x64/16] {
                           FFFFFFFFFFFF                          
                       FFFFFFFFFFFFFFFFFFFF                      
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
@@ -64,6 +64,6 @@ FFFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
                       FFFFFFFFFFFFFFFFFFFF                      
                           FFFFFFFFFFFF                          
-]
+}
 
 @enduml

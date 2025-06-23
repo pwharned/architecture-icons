@@ -1,5 +1,5 @@
 @startuml
-sprite $Actors_Administrator [
+sprite $Actors_Administrator[64x64/16] {
                           FFFFFFFFFFFF                          
                       FFFFFFFFFFFFFFFFFFFF                      
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
@@ -64,6 +64,6 @@ FFFFFFFFFFFFFFFFFFF00FFFFFFFFFFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFF
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
                       FFFFFFFFFFFFFFFFFFFF                      
                           FFFFFFFFFFFF                          
-]
+}
 
 @enduml

@@ -1,5 +1,5 @@
 @startuml
-sprite $Applications_API_2 [
+sprite $Applications_API_2[64x64/16] {
                           FFFFFFFFFFFF                          
                       FFFFFFFFFFFFFFFFFFFF                      
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
@@ -64,6 +64,6 @@ FFFFFFFFFFFFFFFFFF00FFFF00FF00FFFFFFFF00000000FFFFFFFFFFFFFFFFFF
                     FFFFFFFFFFFFFFFFFFFFFFFF                    
                       FFFFFFFFFFFFFFFFFFFF                      
                           FFFFFFFFFFFF                          
-]
+}
 
 @enduml

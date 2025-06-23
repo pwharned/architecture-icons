@@ -81,11 +81,13 @@ public class SvgToPlantUML {
                         // Step 3: Create PlantUML sprite from the PNG
                         try (FileWriter writer = new FileWriter(outputPath.toFile())) {
                             writer.write("@startuml\n");
-
-                            // Write sprite definition
-                            writer.write("sprite $" + spriteName + " [\n");
                             int width = image.getWidth();
                             int height = image.getHeight();
+                            String swidth = String.valueOf(width);
+                            String sheight = String.valueOf(height);
+
+                            // Write sprite definition
+                            writer.write("sprite $" + spriteName +"[" + swidth + "x" + sheight + "/" + "16" +  "] {\n");
 
                             // Process the image data into PlantUML sprite format
                             for (int y = 0; y < height; y++) {
@@ -113,7 +115,7 @@ public class SvgToPlantUML {
                                 }
                                 writer.write(line.toString() + "\n");
                             }
-                            writer.write("]\n\n");
+                            writer.write("}\n\n");
 
                             writer.write("@enduml\n");
                         }
