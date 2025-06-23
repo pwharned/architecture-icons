@@ -1,0 +1,270 @@
+@startuml
+' Index file for all generated sprites
+
+!include AI/AI.puml
+!include AI/Group 98.puml
+!include AI/IBM WatsonX.puml
+!include AI/IBM® watsonx.governance™.puml
+!include AI/ai-governance--lifecycle.puml
+!include AI/ai-governance--tracked.puml
+!include AI/ai-launch.puml
+!include AI/machine-learning-model(1).puml
+!include AI/machine-learning.puml
+!include AI/model--tuned.puml
+!include AI/prompt-session.puml
+!include AI/prompt-template.puml
+!include AI/tuning.puml
+!include AI/watsonx-ai.puml
+!include AI/watsonx-data.puml
+!include Actors/Administrator.puml
+!include Actors/Enterprise.puml
+!include Actors/Group Meeting.puml
+!include Actors/Group.puml
+!include Actors/Service Desk.puml
+!include Actors/Service ID.puml
+!include Actors/User collaborate.puml
+!include Actors/User.puml
+!include Actors/devices.puml
+!include Actors/flag.puml
+!include Actors/laptop.puml
+!include Actors/location.puml
+!include Actors/mobile.puml
+!include Actors/tablet.puml
+!include Applications/API 1.puml
+!include Applications/API 2.puml
+!include Applications/Application.puml
+!include Applications/Automation Script.puml
+!include Applications/CLI Application.puml
+!include Applications/Mobile Application.puml
+!include Applications/Virtual Application.puml
+!include Applications/Web Application.puml
+!include Applications/phone--application.puml
+!include Compute/Bare Metal Server 01.puml
+!include Compute/Bare Metal Server for VPC.puml
+!include Compute/Bare Metal Server.puml
+!include Compute/Chip.puml
+!include Compute/Cloud Registry.puml
+!include Compute/CoudSatellite.puml
+!include Compute/Dedicated Host.puml
+!include Compute/Image Service.puml
+!include Compute/Instance Group.puml
+!include Compute/Instance--BX.puml
+!include Compute/Kubernetes Cluster.puml
+!include Compute/Kubernetes.puml
+!include Compute/Open Shift.puml
+!include Compute/Physical Server.puml
+!include Compute/Process Gray.puml
+!include Compute/Process Green.puml
+!include Compute/Process.puml
+!include Compute/Sattelite.puml
+!include Compute/Virtual Desktop.puml
+!include Compute/Virtual Server Classic.puml
+!include Compute/Virtual Server.puml
+!include Compute/instance--cx.puml
+!include Compute/instance--mx.puml
+!include Data & Storage/Block Storage Application.puml
+!include Data & Storage/Block Volume.puml
+!include Data & Storage/DB2 Warehouse.puml
+!include Data & Storage/Database.puml
+!include Data & Storage/File Storage Application.puml
+!include Data & Storage/File Storage.puml
+!include Data & Storage/Object Bucket.puml
+!include Data & Storage/Object Storage Application.puml
+!include Data & Storage/Object Storage Slisor.puml
+!include Data & Storage/SQL.puml
+!include Data & Storage/TSV.puml
+!include Data & Storage/archive.puml
+!include Data & Storage/data-accessor.puml
+!include Data & Storage/data-backup.puml
+!include Data & Storage/data-blob.puml
+!include Data & Storage/database--datastax.puml
+!include Data & Storage/database--elastic.puml
+!include Data & Storage/database--enterprisedb.puml
+!include Data & Storage/database--etcd.puml
+!include Data & Storage/database--mongodb.puml
+!include Data & Storage/database--postgreSQL.puml
+!include Data & Storage/database--rabbit.puml
+!include Data & Storage/database--redis.puml
+!include Data & Storage/file-system.puml
+!include Data & Storage/ibm--db2--alt.puml
+!include Data & Storage/ibm-cloud-pak--data.puml
+!include Data & Storage/mysql.puml
+!include DevOps/Continuous Delivery.puml
+!include DevOps/Network/Back End Router Group Copy.puml
+!include DevOps/Network/Back End Router Group.puml
+!include DevOps/Network/Back End Router.puml
+!include DevOps/Network/Back end L2 Switch.puml
+!include DevOps/Network/Direct Link.puml
+!include DevOps/Network/Global Load Balancer.puml
+!include DevOps/Network/Internet.puml
+!include DevOps/Network/L2 Switch.puml
+!include DevOps/Network/L3 Switch.puml
+!include DevOps/Network/Public Network.puml
+!include DevOps/Network/Push to talk.puml
+!include DevOps/Network/communication--unified.puml
+!include DevOps/Network/content-delivery-network.puml
+!include DevOps/Network/dns-services.puml
+!include DevOps/Network/edge-node.puml
+!include DevOps/Network/floating-ip.puml
+!include DevOps/Network/gateway--api.puml
+!include DevOps/Network/gateway--mail.puml
+!include DevOps/Network/gateway--public.puml
+!include DevOps/Network/gateway.puml
+!include DevOps/Network/hybrid-networking.puml
+!include DevOps/Network/ibm-cloud--subnets 2.puml
+!include DevOps/Network/ibm-cloud--subnets.puml
+!include DevOps/Network/ibm-cloud--vpc 2.puml
+!include DevOps/Network/ibm-cloud--vpc.puml
+!include DevOps/Network/internet-services.puml
+!include DevOps/Network/load-balancer--application.puml
+!include DevOps/Network/load-balancer--classic.puml
+!include DevOps/Network/load-balancer--listener.puml
+!include DevOps/Network/load-balancer--local.puml
+!include DevOps/Network/load-balancer--network.puml
+!include DevOps/Network/load-balancer--pool.puml
+!include DevOps/Network/load-balancer--vpc.puml
+!include DevOps/Network/message-queue.puml
+!include DevOps/Network/network--overlay.puml
+!include DevOps/Network/network-interface.puml
+!include DevOps/Network/radio--combat.puml
+!include DevOps/Network/router--voice.puml
+!include DevOps/Network/router--wifi.puml
+!include DevOps/Network/router.puml
+!include DevOps/Network/server--dns.puml
+!include DevOps/Network/server--proxy.puml
+!include DevOps/Network/transit-gateway.puml
+!include DevOps/Network/transmission-lte.puml
+!include DevOps/Network/vlan--ibm.puml
+!include DevOps/Network/vlan.puml
+!include DevOps/Network/vpc-endpoints.puml
+!include DevOps/Network/wifi--controller.puml
+!include DevOps/Network/wifi-bridge--alt.puml
+!include DevOps/Network/wifi-bridge.puml
+!include DevOps/PreProd Environment.puml
+!include DevOps/PreProd Service.puml
+!include DevOps/Prod Environment.puml
+!include DevOps/Production Regulated.puml
+!include DevOps/Production Service.puml
+!include DevOps/Serverless Application.puml
+!include DevOps/Test Service.puml
+!include DevOps/Testing.puml
+!include DevOps/_Transparent_Rectangle_.puml
+!include DevOps/build-tool.puml
+!include DevOps/continuous-integration.puml
+!include DevOps/repo--artifact.puml
+!include DevOps/repo--source-code.puml
+!include Extra Storage 2/database--messaging.puml
+!include Extra Storage 2/datastore.puml
+!include Extra Storage 2/ibm--cloudant.puml
+!include Extra Storage 2/ibm--datastage.puml
+!include Extra Storage 2/ibm--db2.puml
+!include Extra Storage 2/ibm-cloud--hyper-protect-dbaas.puml
+!include Extra Storage/database--messaging.puml
+!include Extra Storage/datastore.puml
+!include Extra Storage/ibm--cloudant.puml
+!include Extra Storage/ibm--datastage.puml
+!include Extra Storage/ibm--db2.puml
+!include Extra Storage/ibm-cloud--hyper-protect-dbaas.puml
+!include Networking/Back End Router Group Copy.puml
+!include Networking/Back End Router Group.puml
+!include Networking/Back End Router.puml
+!include Networking/Back end L2 Switch.puml
+!include Networking/DNS Server.puml
+!include Networking/Direct Link.puml
+!include Networking/Global Load Balancer.puml
+!include Networking/IBM Cloud .puml
+!include Networking/IBM Cloud Subnets.puml
+!include Networking/Internet.puml
+!include Networking/L2 Switch.puml
+!include Networking/L3 Switch.puml
+!include Networking/LTE Transmission.puml
+!include Networking/Load Balancer Listner.puml
+!include Networking/Load Balancer Pool.puml
+!include Networking/Load Balancer VPC.puml
+!include Networking/Local Load Balancer.puml
+!include Networking/Mail Gateway.puml
+!include Networking/Message Queue.puml
+!include Networking/Network Interface.puml
+!include Networking/Network Load Balancer.puml
+!include Networking/Network Overlay.puml
+!include Networking/Public Gateway.puml
+!include Networking/Public Network.puml
+!include Networking/Push to talk.puml
+!include Networking/Router.puml
+!include Networking/Server Proxy.puml
+!include Networking/Subnet.puml
+!include Networking/Transit Gatewa.puml
+!include Networking/Unified Communications.puml
+!include Networking/VLAN.puml
+!include Networking/VPC Endpoints.puml
+!include Networking/VPC.puml
+!include Networking/Voice Route.puml
+!include Networking/Wifi Bridge.puml
+!include Networking/Wifi Controller.puml
+!include Networking/Wifi Router.puml
+!include Networking/content-delivery-network.puml
+!include Networking/dns-services.puml
+!include Networking/edge-node.puml
+!include Networking/floating-ip.puml
+!include Networking/gateway--api.puml
+!include Networking/gateway.puml
+!include Networking/hybrid-networking.puml
+!include Networking/ibm-cloud--subnets.puml
+!include Networking/ibm-cloud--vpc.puml
+!include Networking/internet-services.puml
+!include Networking/load-balancer--application.puml
+!include Networking/load-balancer--classic.puml
+!include Networking/vlan--ibm.puml
+!include Observability/Call Manager.puml
+!include Observability/chat--operational.puml
+!include Observability/cloud--alerting.puml
+!include Observability/cloud--auditing.puml
+!include Observability/cloud--logging.puml
+!include Observability/cloud--monitoring.puml
+!include Observability/cloud--service-management.puml
+!include Observability/flow-logs-vpc.puml
+!include Observability/gui--management.puml
+!include Observability/gui.puml
+!include Security/Authorization Boundary.puml
+!include Security/Certificate.puml
+!include Security/Cloud Pak for Security.puml
+!include Security/Data Diode.puml
+!include Security/IBM VPN for VPC.puml
+!include Security/Identity and Access Management.puml
+!include Security/Key.puml
+!include Security/Network ACL.puml
+!include Security/SG Rules.puml
+!include Security/Secrets Manager.puml
+!include Security/Security Gateway.puml
+!include Security/bastion-host.puml
+!include Security/code-signing-service.puml
+!include Security/credentials.puml
+!include Security/document--protected.puml
+!include Security/document--security.puml
+!include Security/document--signed.puml
+!include Security/document--unprotected.puml
+!include Security/encryption.puml
+!include Security/fingerprint-recognition.puml
+!include Security/firewall--classic.puml
+!include Security/firewall.puml
+!include Security/gateway--user-access.puml
+!include Security/gateway--vpn.puml
+!include Security/group--security.puml
+!include Security/hardware-security-module.puml
+!include Security/ibm-cloud--key-protect.puml
+!include Security/intrusion-prevention.puml
+!include Security/network--admin-control.puml
+!include Security/pcn--e-node.puml
+!include Security/pcn--p-node.puml
+!include Security/pcn--z-node.puml
+!include Security/security-services.puml
+!include Security/session-border-control.puml
+!include Security/sim-card.puml
+!include Security/subnet-acl-rules.puml
+!include Security/two-factor-authentication.puml
+!include Security/vpn--connection.puml
+!include Security/vpn--policy.puml
+!include Security/wifi--not-secure.puml
+!include Security/wifi--secure.puml
+
+@enduml
